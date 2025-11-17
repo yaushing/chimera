@@ -1,0 +1,30 @@
+.navbar {
+    justify-content: center;
+}
+
+@media (min-width: 601px) {
+    .link-container {
+    width: 33lvw;
+    }
+
+    .brand-container {
+        width: 33lvw;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .title-container {
+        width: 100lvw;
+}
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        justify-content: space-between;
+    }
+    .navbar-text {
+        font-size: 0px !important;
+    }
+    .title-container {
+        width: 0px !important;
+    }
+}
